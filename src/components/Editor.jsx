@@ -11,6 +11,7 @@ export default function Editor({ tempNoteText, setTempNoteText }) {
         strikethrough: true,
         tasklists: true,
     })
+
     return (
         <section className="pane editor">
             <ReactMde

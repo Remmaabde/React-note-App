@@ -1,5 +1,3 @@
-import React from "react"
-
 export default function Sidebar(props) {
     const noteElements = props.notes.map((note) => (
         <div key={note.id}>
@@ -18,7 +16,7 @@ export default function Sidebar(props) {
                 </button>
             </div>
         </div>
-    ))
+    ));
 
     return (
         <section className="pane sidebar">
@@ -28,5 +26,5 @@ export default function Sidebar(props) {
             </div>
             {noteElements}
         </section>
-    )
+    );
 }
